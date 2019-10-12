@@ -59,5 +59,5 @@ function ss(time) {
   let res = await page.$eval('.natl_words .natl_num', el => el.innerHTML);
   console.log(res)
   browser.close();
-
+//xixi
 })();
