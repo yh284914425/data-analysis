@@ -1,4 +1,4 @@
-# 慕课网课程数据分析
+# 只能投顾网站数据分析
 - Pupteer(chrome-headless)定向爬取购买量数据
     - [搭建pupteer环境](./doc/puppteer/01-install.md)
     - [抓起单页](./doc/puppteer/02-get-data.md)
