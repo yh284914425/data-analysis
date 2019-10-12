@@ -1,0 +1,30 @@
+{
+  "name": "imooc-data-analysis",
+  "version": "1.0.0",
+  "description": "- Pupteer(chrome-headless)定向爬取\b购买量数据 - SuperSet数据可视化 - Docker",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "dev": "./node_modules/.bin/nodemon app.js -i ./data/",
+    "etl": "./node_modules/.bin/nodemon etl.js -i ./data/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/su37josephxia/imooc-data-analysis.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/su37josephxia/imooc-data-analysis/issues"
+  },
+  "homepage": "https://github.com/su37josephxia/imooc-data-analysis#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "moment": "^2.22.2",
+    "nodemon": "^1.18.5",
+    "puppeteer": "^1.10.0"
+  }
+}
